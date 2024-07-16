@@ -118,6 +118,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 | <a name="module_labels"></a> [labels](#module\_labels) | git::git@github.com:yadavprakash/terraform-gcp-labels.git | master |
 
 ## Resources
+|------|--------|--------|
 | Name | Type |
 |------|------|
 | [google_storage_bucket.bucket](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket) | resource |
