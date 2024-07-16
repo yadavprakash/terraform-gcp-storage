@@ -134,11 +134,11 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 | <a name="input_environment"></a> [environment](#input\_environment) | Environment (e.g. `prod`, `dev`, `staging`). | `string` | `""` | no |
 | <a name="input_force_destroy"></a> [force\_destroy](#input\_force\_destroy) | (Optional, Default: false) When deleting a bucket, this boolean option will delete all contained objects | `bool` | `true` | no |
 | <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. sequence of application name and environment `name`,`environment`,'attribute' [`webserver`,`qa`,`devops`,`public`,] . | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
-| <a name="input_labels"></a> [labels](#input\_labels) | ManagedBy, yadavprakash| `map(any)` | `{}` | no |
+| <a name="input_labels"></a> [labels](#input\_labels) | ManagedBy, yadavprakash | `map(any)` | `{}` | no |
 | <a name="input_lifecycle_rules"></a> [lifecycle\_rules](#input\_lifecycle\_rules) | The bucket's Lifecycle Rules configuration. | `any` | `[]` | no |
 | <a name="input_location"></a> [location](#input\_location) | (Required) The GCS location. | `string` | `"US"` | no |
 | <a name="input_logging"></a> [logging](#input\_logging) | The bucket's Access & Storage Logs configuration. | `any` | `null` | no |
-| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, yadavprakash| `string` | `"yadavprakash"` | no |
+| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, yadavprakash | `string` | `"yadavprakash"` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name of the resource. Provided by the client when the resource is created. | `string` | `"test"` | no |
 | <a name="input_public_access_prevention"></a> [public\_access\_prevention](#input\_public\_access\_prevention) | (Optional) Prevents public access to a bucket. Acceptable values are [inherited] or [enforced]. | `string` | `"inherited"` | no |
 | <a name="input_repository"></a> [repository](#input\_repository) | Terraform current module repo | `string` | `""` | no |
