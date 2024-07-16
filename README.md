@@ -114,7 +114,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Modules
 
 | Name | Source | Version |
-|------|--------|--------|
+|------|--------|---------|
 | <a name="module_labels"></a> [labels](#module\_labels) | git::git@github.com:yadavprakash/terraform-gcp-labels.git | master |
     
 ## Resources
